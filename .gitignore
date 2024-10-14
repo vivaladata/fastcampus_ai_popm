@@ -1,0 +1,13 @@
+.log
+.test
+.vscode
+.venv
+.env
+node_modules
+/dist
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+
