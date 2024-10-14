@@ -69,7 +69,7 @@ AI 기반의 X-ray 진단 및 병원 추천 서비스로, Part3 실습 1에 후�
     ```
    **2-1. 이전의 Stremlit 캐시를 지우고 앱 실행 시**
     ```sh
-    streamlit run app.py --clear-cache
+    streamlit run app.py --server.port 8501 --server.address localhost --server.enableCORS false --global.developmentMode false
     ```
 
 ## 활용 라이브러리
